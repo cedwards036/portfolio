@@ -36,7 +36,9 @@ export default function Home() {
             ]}
           />
         </div>
-        <p className={styles.description}>Insert personal description here</p>
+        <p className={styles.description}>
+          Classically trained singer, dog lover, and all-around nerd.
+        </p>
 
         <div className={styles.grid}>
           <Card
