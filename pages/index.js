@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/footer.js";
 import Card from "../components/card.js";
+import PersonalLinks from "../components/personal-links.js";
 
 export default function Home() {
   return (
@@ -14,7 +15,25 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Christopher Edwards</h1>
         <h2>Software Developer</h2>
-
+        <PersonalLinks
+          links={[
+            {
+              url: "https://github.com/cedwards036",
+              imgSrc: "/github.svg",
+              alt: "Github link",
+            },
+            {
+              url: "https://www.linkedin.com/in/cedwards036/",
+              imgSrc: "/linkedin.svg",
+              alt: "LinkedIn link",
+            },
+            {
+              url: "https://twitter.com/cedwards036",
+              imgSrc: "/twitter.svg",
+              alt: "Twitter link",
+            },
+          ]}
+        />
         <p className={styles.description}>Insert personal description here</p>
 
         <div className={styles.grid}>
