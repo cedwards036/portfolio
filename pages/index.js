@@ -14,26 +14,28 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Christopher Edwards</h1>
-        <h2>Software Developer</h2>
-        <PersonalLinks
-          links={[
-            {
-              url: "https://github.com/cedwards036",
-              imgSrc: "/github.png",
-              alt: "Github link",
-            },
-            {
-              url: "https://www.linkedin.com/in/cedwards036/",
-              imgSrc: "/linkedin.png",
-              alt: "LinkedIn link",
-            },
-            {
-              url: "https://twitter.com/cedwards036",
-              imgSrc: "/twitter.png",
-              alt: "Twitter link",
-            },
-          ]}
-        />
+        <div>
+          <h2>Software Developer</h2>
+          <PersonalLinks
+            links={[
+              {
+                url: "https://github.com/cedwards036",
+                imgSrc: "/github.png",
+                alt: "Github link",
+              },
+              {
+                url: "https://www.linkedin.com/in/cedwards036/",
+                imgSrc: "/linkedin.png",
+                alt: "LinkedIn link",
+              },
+              {
+                url: "https://twitter.com/cedwards036",
+                imgSrc: "/twitter.png",
+                alt: "Twitter link",
+              },
+            ]}
+          />
+        </div>
         <p className={styles.description}>Insert personal description here</p>
 
         <div className={styles.grid}>

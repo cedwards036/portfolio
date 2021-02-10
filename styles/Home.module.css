@@ -35,17 +35,6 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
@@ -53,8 +42,14 @@
 }
 
 .title,
-.description {
+.description,
+.plinks {
   text-align: center;
+}
+
+.plinks {
+  display: flex;
+  justify-content: space-between;
 }
 
 .description {
