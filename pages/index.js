@@ -19,17 +19,17 @@ export default function Home() {
           links={[
             {
               url: "https://github.com/cedwards036",
-              imgSrc: "/github.svg",
+              imgSrc: "/github.png",
               alt: "Github link",
             },
             {
               url: "https://www.linkedin.com/in/cedwards036/",
-              imgSrc: "/linkedin.svg",
+              imgSrc: "/linkedin.png",
               alt: "LinkedIn link",
             },
             {
               url: "https://twitter.com/cedwards036",
-              imgSrc: "/twitter.svg",
+              imgSrc: "/twitter.png",
               alt: "Twitter link",
             },
           ]}
