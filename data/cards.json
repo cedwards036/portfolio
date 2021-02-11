@@ -33,7 +33,7 @@
     "blogURL": "",
     "imgSrc": "/workflowish.png",
     "imgAlt": "Workflowish App preview image",
-    "technologies": ["Ruby on Rails", "React", "MongoDB"],
+    "technologies": ["Ruby on Rails", "Javascript", "MongoDB"],
     "githubLinks": [
       {
         "name": "Front end",
