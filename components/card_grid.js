@@ -11,6 +11,7 @@ export default function CardGrid(props) {
       imgSrc={card.imgSrc}
       imgAlt={card.imgAlt}
       technologies={card.technologies}
+      githubLinks={card.githubLinks}
       key={card.name}
     />
   ));

@@ -6,7 +6,10 @@
     "blogURL": "/",
     "imgSrc": "/sudoku.png",
     "imgAlt": "Sudoku App preview image",
-    "technologies": ["React"]
+    "technologies": ["React"],
+    "githubLinks": [
+      { "name": "Github", "url": "https://github.com/cedwards036/sudoku" }
+    ]
   },
   {
     "name": "Sudoku Solver",
@@ -15,7 +18,13 @@
     "blogURL": "/",
     "imgSrc": "/dlx.png",
     "imgAlt": "DLX Sudoku Solver preview image",
-    "technologies": ["Javascript"]
+    "technologies": ["Javascript"],
+    "githubLinks": [
+      {
+        "name": "Github",
+        "url": "https://github.com/cedwards036/sudoku-solver"
+      }
+    ]
   },
   {
     "name": "Workflowish",
@@ -24,7 +33,17 @@
     "blogURL": "/",
     "imgSrc": "/workflowish.png",
     "imgAlt": "Workflowish App preview image",
-    "technologies": ["Ruby on Rails", "React", "MongoDB"]
+    "technologies": ["Ruby on Rails", "React", "MongoDB"],
+    "githubLinks": [
+      {
+        "name": "Front end",
+        "url": "https://github.com/cedwards036/workflowy-clone-frontend"
+      },
+      {
+        "name": "Back end",
+        "url": "https://github.com/cedwards036/workflowy-clone-api"
+      }
+    ]
   },
   {
     "name": "Autohandshake",
@@ -32,7 +51,13 @@
     "webURL": "https://pypi.org/project/autohandshake/",
     "blogURL": "/",
     "imgSrc": "/handshake.png",
-    "technologies": ["Python", "Selenium"]
+    "technologies": ["Python", "Selenium"],
+    "githubLinks": [
+      {
+        "name": "Github",
+        "url": "https://github.com/cedwards036/autohandshake"
+      }
+    ]
   },
   {
     "name": "Deterministic Turing Machine Simulation",
@@ -40,6 +65,12 @@
     "webURL": "https://github.com/cedwards036/DeterministicTuringMachine",
     "blogURL": "/",
     "imgSrc": "/turing.jpg",
-    "technologies": ["Java"]
+    "technologies": ["Java"],
+    "githubLinks": [
+      {
+        "name": "Github",
+        "url": "https://github.com/cedwards036/DeterministicTuringMachine"
+      }
+    ]
   }
 ]

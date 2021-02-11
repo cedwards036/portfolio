@@ -6,6 +6,12 @@ export default function Card(props) {
   const technologies = props.technologies.map((tech) => (
     <div className={styles.technology}>{tech}</div>
   ));
+  const githubLinks = props.githubLinks.map((link) => (
+    <a href={link.url} className={styles.ghlinks}>
+      <Image src="/github.svg" width={15} height={15} alt="Github logo"></Image>
+      {" " + link.name}
+    </a>
+  ));
   return (
     <div className={styles.card}>
       <Link href={props.webURL}>
@@ -19,6 +25,7 @@ export default function Card(props) {
           <h3>{props.name} &rarr;</h3>
         </a>
       </Link>
+      <div>{githubLinks}</div>
       <div className={styles.technologies}>{technologies}</div>
       <p>{props.shortDesc}</p>
     </div>
