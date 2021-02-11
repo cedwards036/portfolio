@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sudoku App",
+    "shortDesc": "A web app for solving sudoku puzzles",
+    "webURL": "https://react-sudoku.netlify.app/",
+    "blogURL": "/",
+    "imgSrc": "/sudoku.png",
+    "imgAlt": "Sudoku App preview image"
+  },
+  {
+    "name": "Workflowish",
+    "shortDesc": "A clone of the Workflowy productivity app",
+    "webURL": "https://workflowish.netlify.app/",
+    "blogURL": "/",
+    "imgSrc": "/workflowish.png",
+    "imgAlt": "Workflowish App preview image"
+  },
+  {
+    "name": "Autohandshake",
+    "shortDesc": "A web automation library for the Handshake career services platform",
+    "webURL": "https://pypi.org/project/autohandshake/",
+    "blogURL": "/",
+    "imgSrc": "/handshake.png"
+  },
+  {
+    "name": "Deterministic Turing Machine Simulation",
+    "shortDesc": "A command-line app simulating a deterministic Turing machine",
+    "webURL": "https://github.com/cedwards036/DeterministicTuringMachine",
+    "blogURL": "/",
+    "imgSrc": "/turing.jpg"
+  }
+]
