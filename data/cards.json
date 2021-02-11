@@ -28,7 +28,7 @@
   },
   {
     "name": "Workflowish",
-    "shortDesc": "A clone of the Workflowy productivity app",
+    "shortDesc": "A partial clone of the Workflowy productivity app",
     "webURL": "https://workflowish.netlify.app/",
     "blogURL": "/",
     "imgSrc": "/workflowish.png",
