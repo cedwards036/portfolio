@@ -7,7 +7,7 @@ export default function Card(props) {
     <div className={styles.technology}>{tech}</div>
   ));
   const githubLinks = props.githubLinks.map((link) => (
-    <a href={link.url} className={styles.ghlinks}>
+    <a href={link.url} target="_blank" className={styles.ghlinks}>
       <Image src="/github.svg" width={15} height={15} alt="Github logo"></Image>
       {" " + link.name}
     </a>
