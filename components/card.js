@@ -22,12 +22,17 @@ export default function Card(props) {
             height={200}
             alt={props.imgAlt}
           ></Image>
-          <h3>{props.name} &rarr;</h3>
+          <h3>{props.name}</h3>
         </a>
       </Link>
       <div>{githubLinks}</div>
       <div className={styles.technologies}>{technologies}</div>
       <p>{props.shortDesc}</p>
+      {props.blogURL && (
+        <Link href={props.blogURL}>
+          <a className={styles.bloglink}>Read more &rarr;</a>
+        </Link>
+      )}
     </div>
   );
 }
