@@ -109,6 +109,17 @@
   height: 1em;
 }
 
+.technologies {
+  display: flex;
+}
+
+.technology {
+  background-color: lightgray;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

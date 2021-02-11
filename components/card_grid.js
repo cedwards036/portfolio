@@ -10,6 +10,7 @@ export default function CardGrid(props) {
       blogURL={card.blogURL}
       imgSrc={card.imgSrc}
       imgAlt={card.imgAlt}
+      technologies={card.technologies}
       key={card.name}
     />
   ));

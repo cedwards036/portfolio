@@ -3,6 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Card(props) {
+  const technologies = props.technologies.map((tech) => (
+    <div className={styles.technology}>{tech}</div>
+  ));
   return (
     <div className={styles.card}>
       <Link href={props.webURL}>
@@ -16,6 +19,7 @@ export default function Card(props) {
           <h3>{props.name} &rarr;</h3>
         </a>
       </Link>
+      <div className={styles.technologies}>{technologies}</div>
       <p>{props.shortDesc}</p>
     </div>
   );

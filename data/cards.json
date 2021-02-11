@@ -5,7 +5,8 @@
     "webURL": "https://react-sudoku.netlify.app/",
     "blogURL": "/",
     "imgSrc": "/sudoku.png",
-    "imgAlt": "Sudoku App preview image"
+    "imgAlt": "Sudoku App preview image",
+    "technologies": ["Javascript", "React"]
   },
   {
     "name": "Workflowish",
@@ -13,20 +14,23 @@
     "webURL": "https://workflowish.netlify.app/",
     "blogURL": "/",
     "imgSrc": "/workflowish.png",
-    "imgAlt": "Workflowish App preview image"
+    "imgAlt": "Workflowish App preview image",
+    "technologies": ["Ruby on Rails", "React", "MongoDB"]
   },
   {
     "name": "Autohandshake",
     "shortDesc": "A web automation library for the Handshake career services platform",
     "webURL": "https://pypi.org/project/autohandshake/",
     "blogURL": "/",
-    "imgSrc": "/handshake.png"
+    "imgSrc": "/handshake.png",
+    "technologies": ["Python", "Selenium"]
   },
   {
     "name": "Deterministic Turing Machine Simulation",
     "shortDesc": "A command-line app simulating a deterministic Turing machine",
     "webURL": "https://github.com/cedwards036/DeterministicTuringMachine",
     "blogURL": "/",
-    "imgSrc": "/turing.jpg"
+    "imgSrc": "/turing.jpg",
+    "technologies": ["Java"]
   }
 ]
