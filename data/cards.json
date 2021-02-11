@@ -6,7 +6,16 @@
     "blogURL": "/",
     "imgSrc": "/sudoku.png",
     "imgAlt": "Sudoku App preview image",
-    "technologies": ["Javascript", "React"]
+    "technologies": ["React"]
+  },
+  {
+    "name": "Sudoku Solver",
+    "shortDesc": "An NPM package that solves classic sudoku puzzles using Knuth's DLX algorithm",
+    "webURL": "https://www.npmjs.com/package/@cedwards036/sudoku-solver",
+    "blogURL": "/",
+    "imgSrc": "/dlx.png",
+    "imgAlt": "DLX Sudoku Solver preview image",
+    "technologies": ["Javascript"]
   },
   {
     "name": "Workflowish",
