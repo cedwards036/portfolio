@@ -88,9 +88,9 @@
   width: 310px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.card a:hover,
+.card a:focus,
+.card a:active {
   color: #0070f3;
   border-color: #0070f3;
 }
