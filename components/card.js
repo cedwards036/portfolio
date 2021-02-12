@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Github from "../public/github.svg";
 
 export default function Card(props) {
   const technologies = props.technologies.map((tech) => (
@@ -15,7 +16,7 @@ export default function Card(props) {
       className={styles.ghlinks}
       key={link.name}
     >
-      <Image src="/github.svg" width={15} height={15} alt="Github logo"></Image>
+      <Github height={15} />
       {" " + link.name}
     </a>
   ));
