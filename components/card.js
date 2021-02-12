@@ -4,10 +4,17 @@ import styles from "../styles/Home.module.css";
 
 export default function Card(props) {
   const technologies = props.technologies.map((tech) => (
-    <div className={styles.technology}>{tech}</div>
+    <div className={styles.technology} key={tech}>
+      {tech}
+    </div>
   ));
   const githubLinks = props.githubLinks.map((link) => (
-    <a href={link.url} target="_blank" className={styles.ghlinks}>
+    <a
+      href={link.url}
+      target="_blank"
+      className={styles.ghlinks}
+      key={link.name}
+    >
       <Image src="/github.svg" width={15} height={15} alt="Github logo"></Image>
       {" " + link.name}
     </a>
