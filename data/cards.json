@@ -72,5 +72,19 @@
         "url": "https://github.com/cedwards036/DeterministicTuringMachine"
       }
     ]
+  },
+  {
+    "name": "Conway's Game of Life",
+    "shortDesc": "A javascript implementation of Conway's Game of Life",
+    "webURL": "https://conway-life-game.netlify.app/",
+    "blogURL": "",
+    "imgSrc": "/conway.png",
+    "technologies": ["React", "TypeScript"],
+    "githubLinks": [
+      {
+        "name": "Github",
+        "url": "https://github.com/cedwards036/conway-game-of-life"
+      }
+    ]
   }
 ]
