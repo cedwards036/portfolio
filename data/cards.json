@@ -6,9 +6,14 @@
     "blogURL": "",
     "imgSrc": "/sudoku.png",
     "imgAlt": "Sudoku App preview image",
-    "technologies": ["React"],
+    "technologies": [
+      "React"
+    ],
     "githubLinks": [
-      { "name": "Github", "url": "https://github.com/cedwards036/sudoku" }
+      {
+        "name": "Github",
+        "url": "https://github.com/cedwards036/sudoku"
+      }
     ]
   },
   {
@@ -18,30 +23,13 @@
     "blogURL": "",
     "imgSrc": "/dlx.png",
     "imgAlt": "DLX Sudoku Solver preview image",
-    "technologies": ["Javascript"],
+    "technologies": [
+      "Javascript"
+    ],
     "githubLinks": [
       {
         "name": "Github",
         "url": "https://github.com/cedwards036/sudoku-solver"
-      }
-    ]
-  },
-  {
-    "name": "Workflowish",
-    "shortDesc": "A partial clone of the Workflowy productivity app",
-    "webURL": "https://workflowish.netlify.app/",
-    "blogURL": "",
-    "imgSrc": "/workflowish.png",
-    "imgAlt": "Workflowish App preview image",
-    "technologies": ["Ruby on Rails", "Javascript", "MongoDB"],
-    "githubLinks": [
-      {
-        "name": "Front end",
-        "url": "https://github.com/cedwards036/workflowy-clone-frontend"
-      },
-      {
-        "name": "Back end",
-        "url": "https://github.com/cedwards036/workflowy-clone-api"
       }
     ]
   },
@@ -51,7 +39,10 @@
     "webURL": "https://pypi.org/project/autohandshake/",
     "blogURL": "",
     "imgSrc": "/handshake.png",
-    "technologies": ["Python", "Selenium"],
+    "technologies": [
+      "Python",
+      "Selenium"
+    ],
     "githubLinks": [
       {
         "name": "Github",
@@ -65,7 +56,9 @@
     "webURL": "https://github.com/cedwards036/DeterministicTuringMachine",
     "blogURL": "",
     "imgSrc": "/turing.jpg",
-    "technologies": ["Java"],
+    "technologies": [
+      "Java"
+    ],
     "githubLinks": [
       {
         "name": "Github",
@@ -79,7 +72,10 @@
     "webURL": "https://conway-life-game.netlify.app/",
     "blogURL": "",
     "imgSrc": "/conway.png",
-    "technologies": ["React", "TypeScript"],
+    "technologies": [
+      "React",
+      "TypeScript"
+    ],
     "githubLinks": [
       {
         "name": "Github",
